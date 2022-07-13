@@ -1,0 +1,44 @@
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-title {
+    margin: 10px;
+    border: 1px solid #333;
+    background-color: #dfdfdfcd;
+    height: 30px;
+}
+
+.button {
+    border: 1px solid #333;
+    background-color: #ffb640cd;
+    width: 100px;
+    height: 40px;
+}
+
+.title-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-title {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.footer {
+    text-align: left;
+    color: white;
+}
